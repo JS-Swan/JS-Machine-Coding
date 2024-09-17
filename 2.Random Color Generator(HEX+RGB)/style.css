@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+}
+.hex-container,.rgb-container{
+    min-height: 100vh;
+    flex: 1;
+    /* What is flex 1 */
+}
+.hex-container,.rgb-container{
+    background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    background: yellow;
+    font-weight: bold;
+    color: rgb(0, 67, 76);
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+    
