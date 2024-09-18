@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.rate-container{
+    display: flex;
+    gap: 5px;
+}
+.fa-star-o{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-star{
+    font-size: 30px;
+    cursor: pointer;
+    color: gold;
+}
