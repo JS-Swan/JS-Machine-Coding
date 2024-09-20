@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.light{
+    background: grey;
+    color: black;
+}
+body.dark{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.change-theme-btn{
+  padding:8px 10px;
+  border: none;
+  cursor: pointer;
+}
+.change-theme-btn.light{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.change-theme-btn.dark{
+    background: rgb(255, 247, 5);
+    color: rgb(1, 0, 0);
+}
