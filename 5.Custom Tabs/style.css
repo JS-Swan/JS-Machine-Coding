@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+.button-wrapper button{
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.button-wrapper button.active{
+    background: black;
+    color: gold;
+}
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
